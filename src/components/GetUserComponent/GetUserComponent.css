@@ -1,0 +1,23 @@
+.form{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: coral;
+}
+form div{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form input, .button{
+    height: 50px;
+    width: 100%;
+    padding: 0;
+}
